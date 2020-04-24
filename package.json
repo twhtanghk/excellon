@@ -1,0 +1,24 @@
+{
+  "name": "excellon",
+  "version": "0.0.1",
+  "description": "excellon drill file to gcode converter",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhtanghk/excellon.git"
+  },
+  "author": "Tommy Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhtanghk/excellon/issues"
+  },
+  "homepage": "https://github.com/twhtanghk/excellon#readme",
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "gerber-parser": "^4.2.0",
+    "lodash": "^4.17.15"
+  }
+}
