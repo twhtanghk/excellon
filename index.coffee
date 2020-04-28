@@ -40,9 +40,11 @@ class Gcode extends Transform
   op: ({op, coord}) ->
     {x, y} = coord
     """
+      M03
       G0Z#{@moveZ}
       G1X#{x}Y#{y}
       G0Z#{@drillZ}
+      M05
     """
 
   _transform: (chunk, encoding, cb) ->
