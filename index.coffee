@@ -41,9 +41,9 @@ class Gcode extends Transform
     {x, y} = coord
     """
       M03
-      G0Z#{@moveZ}
-      G1X#{x}Y#{y}
-      G0Z#{@drillZ}
+      G0F3Z#{@moveZ}
+      G1F100X#{x}Y#{y}
+      G0F3Z#{@drillZ}
       M05
     """
 
